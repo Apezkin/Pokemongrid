@@ -5,7 +5,6 @@ import { PokemonSprite } from "./pokemonSprite";
 export const Pokemon = (props) => {
   const params = useParams();
   let pokemon;
-  console.log(props.pokemonArray);
 
   for (let i = 0; i < props.pokemonArray.length; i++) {
     if (params.id == props.pokemonArray[i].id) {

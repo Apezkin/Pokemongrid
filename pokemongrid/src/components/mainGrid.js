@@ -14,7 +14,7 @@ export const MainGrid = (props) => {
   const searchPokemon = (event) => {
     event.preventDefault();
     if (search) {
-      props.createPokemonArray(1, search);
+      props.createPokemonArray(1, search.toLowerCase());
     } else {
       props.createPokemonArray(20, search);
     }

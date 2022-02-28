@@ -21,16 +21,20 @@ function App() {
   };
 
   const fetchPokemon = async (pokemon) => {
-    let data, jsonData, url, randomPokemon;
+    let data, url, randomPokemon;
     if (!pokemon) {
       randomPokemon = randomNumberGenerator(1, POKEMONCOUNT);
       url = "https://pokeapi.co/api/v2/pokemon/" + randomPokemon;
     } else {
       url = "https://pokeapi.co/api/v2/pokemon/" + pokemon;
     }
-    data = await fetch(url);
-    jsonData = await data.json();
-    return jsonData;
+    data = await fetch(url)
+      .then((response) => response.json())
+      .then((data) => {
+        return data;
+      })
+      .catch((err) => console.log(err));
+    return data;
   };
 
   return (
