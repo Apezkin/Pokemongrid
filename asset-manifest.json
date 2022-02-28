@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Pokemongrid/static/css/main.073c9b0a.css",
-    "main.js": "/Pokemongrid/static/js/main.7853aebb.js",
+    "main.js": "/Pokemongrid/static/js/main.f415c2db.js",
     "static/js/787.fa2b3a71.chunk.js": "/Pokemongrid/static/js/787.fa2b3a71.chunk.js",
     "index.html": "/Pokemongrid/index.html",
     "main.073c9b0a.css.map": "/Pokemongrid/static/css/main.073c9b0a.css.map",
-    "main.7853aebb.js.map": "/Pokemongrid/static/js/main.7853aebb.js.map",
+    "main.f415c2db.js.map": "/Pokemongrid/static/js/main.f415c2db.js.map",
     "787.fa2b3a71.chunk.js.map": "/Pokemongrid/static/js/787.fa2b3a71.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.7853aebb.js"
+    "static/js/main.f415c2db.js"
   ]
 }
