@@ -10,7 +10,7 @@ export const PokemonSprite = (props) => {
 
   return (
     <div>
-      <NavLink to={`/pokemon/${pokemon.id}`}>
+      <NavLink to={`/Pokemongrid/pokemon/${pokemon.id}`}>
         <a href="">
           <img src={pokemon.sprites.front_default} />
         </a>

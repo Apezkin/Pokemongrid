@@ -20,7 +20,7 @@ export const Pokemon = (props) => {
   return (
     <div>
       <li>
-        <Link to="/">Back</Link>
+        <Link to="/Pokemongrid">Back</Link>
       </li>
       {pokemon && <div>{pokemon.name}</div>}
       <PokemonSprite pokemon={pokemon} />

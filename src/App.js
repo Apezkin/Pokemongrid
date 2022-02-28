@@ -40,7 +40,7 @@ function App() {
   return (
     <Routes>
       <Route
-        path="/"
+        path="/Pokemongrid"
         exact
         element={
           <MainGrid
@@ -50,7 +50,7 @@ function App() {
         }
       />
       <Route
-        path="/pokemon/:id"
+        path="/Pokemongrid/pokemon/:id"
         element={<Pokemon pokemonArray={pokemonArray} />}
       />
     </Routes>
