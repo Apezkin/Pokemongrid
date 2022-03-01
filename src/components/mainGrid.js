@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { GridItem } from "./gridItem";
 import Grid from "@mui/material/Grid";
+import "../App.css";
 
 const defaultPokemonAmount = 20;
 
@@ -21,9 +22,9 @@ export const MainGrid = (props) => {
   };
 
   return (
-    <div>
-      <div>Pokemon grid</div>
-      <form onSubmit={searchPokemon}>
+    <div className="App">
+      <div className="App">Pokemon grid</div>
+      <form className="App" onSubmit={searchPokemon}>
         <label>
           Search:
           <input
@@ -34,7 +35,7 @@ export const MainGrid = (props) => {
         </label>
         <input type="submit" value="Search" />
       </form>
-      <Grid container spacing={{ xs: 2 }} columns={{ xs: 8 }}>
+      <Grid className="App" container spacing={{ xs: 2 }} columns={{ xs: 8 }}>
         {props.pokemonArray.map((pokemon, index) => (
           <Grid item xs={2} key={index}>
             <GridItem pokemon={pokemon} />

@@ -1,4 +1,3 @@
-import "./App.css";
 import React, { useState } from "react";
 import { MainGrid } from "./components/mainGrid";
 import { Routes, Route } from "react-router-dom";

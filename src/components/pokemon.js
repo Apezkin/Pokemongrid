@@ -18,8 +18,8 @@ export const Pokemon = (props) => {
   }
 
   return (
-    <div>
-      <li>
+    <div className="App">
+      <li className="App">
         <Link to="/Pokemongrid">Back</Link>
       </li>
       {pokemon && <div>{pokemon.name}</div>}
@@ -30,7 +30,7 @@ export const Pokemon = (props) => {
       <div>special attack: {pokemon.stats[3].base_stat}</div>
       <div>special defense: {pokemon.stats[4].base_stat}</div>
       <div>speed: {pokemon.stats[5].base_stat}</div>
-      <div>#####</div>
+      <div className="App">#####</div>
       <div>abilities:</div>
       {pokemon.abilities.map((ability) => (
         <div>{ability.ability.name}</div>
