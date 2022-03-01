@@ -5,7 +5,7 @@ export const GridItem = (props) => {
   const pokemon = props.pokemon;
 
   if (!pokemon) {
-    return <div>loading...</div>;
+    return <div>No pokemon</div>;
   }
 
   return (
