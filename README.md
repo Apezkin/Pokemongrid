@@ -2,8 +2,6 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-And is hosted using GitHub Pages at https://apezkin.github.io/Pokemongrid/
-
 ## Available Scripts
 
 In the project directory, you can run:
